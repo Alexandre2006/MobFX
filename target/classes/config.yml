@@ -1,0 +1,234 @@
+#######################################################################################################################
+#     Check out valid potion effects at: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType. #
+#     Make sure the effect strength is 255 or less.                                                                   #
+#     If anything breaks, please get the config from the documentation at:                                            #
+#######################################################################################################################
+Example:
+  EFFECT: REGENERATION
+  DURATION: 100 #Duration is in ticks. Multiply by 20 if you want seconds.
+  STRENGTH: 255
+
+BEE:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+BLAZE:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+CAVE_SPIDER:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+CREEPER:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+DOLPHIN:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+DROWNED:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+ELDER_GUARDIAN:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+ENDER_DRAGON:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+ENDERMAN:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+ENDERMITE:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+EVOKER:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+FOX:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+GHAST:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+GUARDIAN:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+HOGLIN:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+HUSK:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+ILLUSIONER:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+IRON_GOLEM:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+LLAMA:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+MAGMA_CUBE:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+PANDA:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+PHANTOM:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+PIGLIN:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+PIGLIN_BRUTE:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+PILLAGER:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+POLAR_BEAR:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+PUFFERFISH:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+RABBIT:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+RAVAGER:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+SHULKER:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+SILVERFISH:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+SKELETON:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+SLIME:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+SPIDER:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+STRAY:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+VEX:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+VINDICATOR:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+WITCH:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+WITHER:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+WITHER_SKELETON:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+WOLF:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+ZOGLIN:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+ZOMBIE:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+ZOMBIFIED_PIGLIN:
+  EFFECT:
+  DURATION:
+  STRENGTH:
+
+ZOMBIE_VILLAGER:
+  EFFECT:
+  DURATION:
+  STRENGTH:

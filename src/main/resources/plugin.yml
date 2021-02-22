@@ -1,0 +1,23 @@
+name: MobFX
+version: ${project.version}
+main: com.thinkalex.mobfx.mobfx.Mobfx
+api-version: 1.16
+prefix: MOBFX
+authors: [ ThinkAlex ]
+description: A plugin which gives you effects when damaged by mobs!
+commands:
+  enable:
+    description: Enables MobFX!
+    usage: /mobfx:enable
+    permission: op
+    permission-message: "You need OP to run this command!"
+  disable:
+    description: Disables MobFX!
+    usage: /mobfx:disable
+    permission: op
+    permission-message: "You need OP to run this command!"
+  reload:
+    description: Reloads the MobFX configuration file!
+    usage: /mobfx:reload
+    permission: op
+    permission-message: "You need OP to run this command!"

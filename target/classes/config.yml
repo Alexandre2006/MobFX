@@ -2,6 +2,7 @@
 #     Check out valid potion effects at: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType. #
 #     Make sure the effect strength is 255 or less.                                                                   #
 #     If anything breaks, please get the config from the documentation at:                                            #
+#     https://alexandre2006.github.io/docs/mobfx                                                                      #
 #######################################################################################################################
 Example:
   EFFECT: REGENERATION

@@ -1,235 +1,312 @@
-#######################################################################################################################
-#     Check out valid potion effects at: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType. #
-#     Make sure the effect strength is 255 or less.                                                                   #
-#     If anything breaks, please get the config from the documentation at:                                            #
-#     https://alexandre2006.github.io/docs/mobfx                                                                      #
-#######################################################################################################################
+##################################
+# Checkout the documentation at: #
+#  alexandre2006.github.io/docs  #
+##################################
+
+##################################
+#            Settings            #
+##################################
+
+INCREASING_STRENGTH: true # Increases the strength of the effect every time the player gets hit
+IMMUNITY_ITEM: true # Whether there should be an item which grants immunity
+
+##################################
+#             Crafts             #
+#   (check docs for item list)   #
+##################################
+
+ITEM: COOKIE # The item that the immunity item will be
+RECIPE: # The recipe for the immunity item from slot 1-9 of the crafting table
+  1: COOKIE
+  2: COOKIE
+  3: COOKIE
+  4: COOKIE
+  5: MILK_BUCKET
+  6: COOKIE
+  7: COOKIE
+  8: COOKIE
+  9: COOKIE
+NAME: Immunity Cookie # The name of the immunity item
+LORE: Grants immunity to Mob Effects # Text under name
+ENCHANTED: true # Whether the enchanted glowing effect should be applied
+
+###################################
+#          Potion Effects         #
+#  (check docs for effects list)  #
+###################################
+
 Example:
-  EFFECT: REGENERATION
-  DURATION: 100 #Duration is in ticks. Multiply by 20 if you want seconds.
-  STRENGTH: 255
+  EFFECT: REGENERATION # The name of the effect
+  DURATION: 100 # The duration of the effect in ticks
+  BASESTRENGTH: 1 # The base strength of the effect
+  MAXSTRENGTH: 255 # The maximum strength of the effect
 
 BEE:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 BLAZE:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 CAVE_SPIDER:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 CREEPER:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 DOLPHIN:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 DROWNED:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 ELDER_GUARDIAN:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 ENDER_DRAGON:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 ENDERMAN:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 ENDERMITE:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 EVOKER:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 FOX:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 GHAST:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 GUARDIAN:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 HOGLIN:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 HUSK:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 ILLUSIONER:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 IRON_GOLEM:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 LLAMA:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 MAGMA_CUBE:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 PANDA:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 PHANTOM:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 PIGLIN:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 PIGLIN_BRUTE:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 PILLAGER:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 POLAR_BEAR:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 PUFFERFISH:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 RABBIT:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 RAVAGER:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 SHULKER:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 SILVERFISH:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 SKELETON:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 SLIME:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 SPIDER:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 STRAY:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 VEX:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 VINDICATOR:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 WITCH:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 WITHER:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 WITHER_SKELETON:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 WOLF:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 ZOGLIN:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 ZOMBIE:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 ZOMBIFIED_PIGLIN:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:
 
 ZOMBIE_VILLAGER:
   EFFECT:
   DURATION:
-  STRENGTH:
+  BASESTRENGTH:
+  MAXSTRENGTH:

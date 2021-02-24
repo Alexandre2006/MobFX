@@ -18,6 +18,7 @@ public final class Mobfx extends JavaPlugin {
         this.getCommand("reload").setExecutor(new reload());
         config.options().copyDefaults(true);
         saveDefaultConfig();
+        if (config.getBoolean("IMMUNITY_ITEM")); {ImmunityItem.GenerateRecipe();}
         getLogger().info("The plugin has started succesfully!");
     }
 

@@ -1,5 +1,5 @@
 name: MobFX
-version: 1.0-SNAPSHOT
+version: 2.0
 main: com.thinkalex.mobfx.mobfx.Mobfx
 api-version: 1.16
 prefix: MOBFX

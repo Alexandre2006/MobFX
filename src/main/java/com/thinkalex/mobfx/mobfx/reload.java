@@ -10,6 +10,7 @@ public class reload implements CommandExecutor {
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         sender.sendMessage("Reloading the config file...");
         Mobfx.plugin.reloadConfig();
+        ImmunityItem.GenerateRecipe();
         return true;
     }
 }

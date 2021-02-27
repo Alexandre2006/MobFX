@@ -1,6 +1,6 @@
 name: MobFX
-version: 2.0.0
-main: com.thinkalex.mobfx.mobfx.Mobfx
+version: 2.5.0
+main: com.thinkalex.mobfx.mobfx.MobFX
 api-version: 1.16
 prefix: MOBFX
 authors: [ ThinkAlex ]

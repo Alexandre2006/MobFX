@@ -9,7 +9,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.ShapedRecipe;
 import org.bukkit.inventory.meta.ItemMeta;
 
-import javax.xml.stream.events.Namespace;
 import java.util.Collections;
 
 public class ImmunityItem {
@@ -19,9 +18,9 @@ public class ImmunityItem {
     public static void GenerateRecipe() {
         try{
             // Reset Recipes
-            Mobfx.plugin.getServer().resetRecipes();
+            MobFX.plugin.getServer().resetRecipes();
             //Get Config
-            FileConfiguration config = Mobfx.plugin.getConfig();
+            FileConfiguration config = MobFX.plugin.getConfig();
             // Create ItemStack
             ImmunityItem = new ItemStack(Material.getMaterial(config.getString("ITEM")));
             ItemMeta ImmunityMeta = ImmunityItem.getItemMeta();
@@ -33,7 +32,7 @@ public class ImmunityItem {
             }
             ImmunityItem.setItemMeta(ImmunityMeta);
             // Create Recipe
-            NamespacedKey key = new NamespacedKey(Mobfx.plugin, "immunity_item");
+            NamespacedKey key = new NamespacedKey(MobFX.plugin, "immunity_item");
             ShapedRecipe ImmunityRecipe = new ShapedRecipe(key, ImmunityItem);
             ImmunityRecipe.shape("123","456","789");
             ImmunityRecipe.setIngredient('1', Material.getMaterial(config.getString("RECIPE.1")));
@@ -46,9 +45,9 @@ public class ImmunityItem {
             ImmunityRecipe.setIngredient('8', Material.getMaterial(config.getString("RECIPE.8")));
             ImmunityRecipe.setIngredient('9', Material.getMaterial(config.getString("RECIPE.9")));
             // Enable Recipe
-            Mobfx.plugin.getServer().addRecipe(ImmunityRecipe);
+            MobFX.plugin.getServer().addRecipe(ImmunityRecipe);
         } catch (Exception e) {
-            Mobfx.plugin.getLogger().info("Looks like your Immunity Item configuration is wrong. Please fix this as soon as possible.");
+            MobFX.plugin.getLogger().info("Looks like your Immunity Item configuration is wrong. Please fix this as soon as possible.");
         }
     }
 }
